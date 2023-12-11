@@ -14,7 +14,8 @@ func main() {
 	//sort.SelectionSort(arr)
 	//sort.QuickSort(arr)
 	//sort.BubbleSort(arr)
-	sort.InsertionSort(arr)
+	//sort.InsertionSort(arr)
+	sort.TreeSort(arr)
 	fmt.Println("Sorted array:", arr)
 
 	target := 12
